@@ -1,0 +1,21 @@
+{
+  "name": "soap-server-test",
+  "version": "1.0.0",
+  "description": "Simple soap server test",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~3.7.4"
+  },
+  "dependencies": {
+    "@types/node": "^13.1.6",
+    "soap": "^0.30.0"
+  }
+}
