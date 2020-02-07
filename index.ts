@@ -9,7 +9,7 @@ const soapService = {
                 console.log(args.User);
                 console.log(args.Password);
                 return {
-                    LoginResult: 'vI17pk19e2u0e3REhm-Qa9JgB6cwOpv8NWjI!jGXl9KoqM7!nNBy--'
+                    LoginResult: 'some-token'
                 }
             }
         }
